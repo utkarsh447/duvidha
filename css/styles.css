@@ -1,0 +1,230 @@
+body{
+	background: url('../images/IMG.jpg');
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.heading h4{
+	font-size: 16px;
+	font-family: Avenir Next Ultra Light;
+}
+
+.journal h2{
+	padding-left: 20px;
+	color: #be6086;
+	font-family: Lucida;
+}
+
+.journal h3{
+	padding-left: 20px;
+	color: #be6086;
+	font-family: Lucida;
+}
+
+.journal h4{
+	padding-left: 15px;
+	color: #554c56;
+	font-family: Lucida;
+}
+
+.journal p{
+	color: #363636;
+	font-size: 17px;
+}
+
+a{
+	color: inherit;
+}
+
+.journal {
+    width: 100%;
+	overflow:hidden;
+	whitespace:nowrap;
+	max-width:100%;
+}
+
+.journal .cover .btn-default {
+    background-color: #572420  !important;
+    color: #fff;
+
+}
+
+.coverdata {
+    width:auto;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    float: left;
+    position:fixed;
+    max-width:inherit;
+}
+.cover {
+
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    text-align: right;
+    width:auto;
+    float:right;
+
+}
+
+.coverdata .btn-default {
+    background-color: #ecebe6 !important;
+}
+
+.cover .btn-default {
+    background-color: #572420 !important;
+}
+
+/*.boxed {
+  border: 1px solid black ;
+  border-radius: 4px;
+  text-align: left !important;
+  padding: 20px;
+}*/
+
+.boxed p{
+	font-size: 13px;
+}
+
+.circle3 
+{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	font-size:20px;
+	color:#fff;
+	line-height:120px;
+	text-align:center;
+	background:#8e44ad;
+}
+
+.circle2 {
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	font-size:20px;
+	color:#fff;
+	line-height:120px;
+	text-align:center;
+	background:#8e44ad;
+}
+
+.circle1{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	font-size:20px;
+	color:#fff;
+	line-height:120px;
+	text-align:center;
+	background:#8e44ad;
+}
+
+/*.coverdata:hover .circle3:hover {
+    background-color: #bdc3c7;
+}
+
+.coverdata:hover .circle2:hover {
+    background-color: #bdc3c7;
+}
+
+.coverdata:hover .circle1:hover {
+    background-color: #bdc3c7;
+}*/
+
+.magazines .btn-default {
+    background-color: #8e44ad !important;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.magazines .btn-default :hover {
+    text-decoration: none;
+    color: #ff1;
+    background: rgba(255,255,255,0.2);
+}
+
+/*.cover .boxed {
+  border: 1px solid black ;
+  border-radius: 4px;
+  text-align: left !important;
+  padding: 20px;
+}
+*/
+.boxed {
+  border: 1px solid black ;
+  border-radius: 4px;
+  text-align: left !important;
+  background: #fff;
+}
+
+.boxed h3{
+	padding-left: 20px;
+	color: #be6086;
+	font-family: Lucida;
+}
+
+.boxed h4{
+	padding-left: 15px;
+	color: #554c56;
+	font-family: Lucida;
+}
+
+.issue {
+    width: 100%;
+	overflow:hidden;
+	whitespace:nowrap;
+	max-width:100%;
+}
+
+.issue .coverdata {
+    width:auto;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    float: left;
+    position:absolute;
+    max-width:inherit;
+}
+
+.issue .cover {
+
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    text-align: center;
+    width:auto;
+    float:right;
+}
+
+.issue .boxed{
+	border: 1px solid black ;
+  	border-radius: 4px;
+  	text-align: left !important;
+  	padding: 0px !important;
+  	background: #D3D3D3 !important;
+}
+
+.side:hover .index:hover {
+    background-color: #fff;
+}
+
+.issue .boxed {
+  border: 1px solid white ;
+  border-radius: 4px;
+  text-align: left !important;
+  padding: 20px;
+}
+
+.vol2 .boxed{
+	padding-left: 20em;
+}
+
